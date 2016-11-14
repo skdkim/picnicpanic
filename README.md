@@ -24,6 +24,8 @@ The game board will display the start button and will tell the user to click the
 The About modal will include instructions for the game as well as links to the GitHub and my LinkedIn.
 On the same section as the About modal will be a volume logo meant to toggle on or off the music.
 
+![image of wireframe] (https://github.com/skdkim/catchthefruits/blob/master/design/catchthefruitwireframe.png)
+
 ## Architecture and Technologies
 TBD, Will work with Canvas in some way
 
