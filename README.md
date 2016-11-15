@@ -68,5 +68,5 @@ Goals for the day:
 ## Bonus features
 These are features that I would like to implement in order to make the gaming experience for the user more enjoyable
 - [ ] Allow the user to choose their fruit
-- [ ] Implement bad fruits/super fruits for powerups
+- [ ] Implement super fruits/bad fruits for powerups/powerdowns
 - [ ] Multiple players
