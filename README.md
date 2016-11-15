@@ -27,36 +27,47 @@ On the same section as the About modal will be a volume logo meant to toggle on 
 ![image of wireframe] (https://github.com/skdkim/catchthefruits/blob/master/design/catchthefruitwireframe.png)
 
 ## Architecture and Technologies
-TBD, Will work with Canvas in some way
+This project will be implemented with the following technologies:
++ Vanilla JavaScript for game logic
++ HTML5 and CSS for rendering game content
++ Canvas to provide '2D' game graphics
++ HTML audio for game music
++ FullScreen API to allow users to fully immerse themselves into the game
 
 ## Implementation Timeline
 **Day 1:** Learn Canvas and see what other technologies I need to make this project a reality.
 
 Goals for the day:
-+ Have something on the screen
++ Create a project repo
++ Render background using canvas
++ Define and style Fruit Class, User Class
 + Connect everything to GitHub pages
-+ Finish About modal
 
-**Day 2:** Create the game logic
-
-Goals for the day:
-+ Create music toggling
-+ Allow the user to start the game
-
-**Day 3:** Implement game logic
+**Day 2:** Create/Implement the game logic
 
 Goals for the day:
-+ Allow users to play the game
++ Create About's modal with links to github/linkedin
++ Define sound class using HTML audio
++ Render music and options to game screen
++ Create backend game logic
++ Allow the user to interact with the game
+
+**Day 3:** Style game with CSS and images
+
+Goals for the day:
++ Find appropriate images for game
++ Style canvas with CSS
 + Allow users to see their latest highest score
 
-**Day 4:** Perfect CSS
+**Day 4:** Fix bugs and implement bonus features
 
 Goals for the day:
-+ Perfect the CSS that has not been worked on
-+ Make webapp dynamic 
++ Touch up on css styling if necessary
++ Fix any bugs if present
++ Implement bonus features
 
 ## Bonus features
 These are features that I would like to implement in order to make the gaming experience for the user more enjoyable
 - [ ] Allow the user to choose their fruit
 - [ ] Implement bad fruits/super fruits for powerups
-- [ ] Multiple levels
+- [ ] Multiple players
