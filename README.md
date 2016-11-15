@@ -2,8 +2,7 @@
 
 ## Background
 
-Catch the Fruits is a fun game that drops fruit from the top of your screen to the bottom of your screen where you catch it in a basket. If you're the kind of person who is always missing a catch because you time it too fast or too slow, you'll love this game because it's easier than life and if you're good at catching you'll rock this game! 
-
+Catch the Fruits is a fun game that drops fruit from the top of your screen to the bottom of your screen. When the game starts, fruits will immediately start dropping. The basket will start at the center of the screen. You gain points by catching the fruits in your basket. A single user is able to move their basket side to side using the arrow keys or "W,A,S,D" keys. When the game is in multi-player mode (bonus feature), two players can battle it out using the arrow keys and "W,A,S,D" keys.
 
 ## Functionality & MVP
 With Catch the Fruit, players will be able to:
