@@ -19,7 +19,7 @@ section, p, footer, small {
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 10% auto;
+  margin: 5% auto;
 }
 
 .bottom-links {
@@ -43,7 +43,35 @@ canvas {
   background-position: center;
 }
 
-.title {
+#title {
   font-size: 64px;
   font-family: monospace;
+}
+
+#title-ss {
+  font-size: 44px;
+  font-family: monospace;
+}
+
+#start-screen {
+  position: relative;
+  top: -601px;
+  width: 100%;
+  margin: 15% 0;
+  padding: 15% 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+#start {
+  position: relative;
+  top: 109px;
+  height: 100px;
+  width: 100px;
+}
+
+.v-h {
+  visibility: hidden;
 }
