@@ -38,6 +38,9 @@ canvas {
   border: 1px solid;
   width: 600px;
   height: 600px;
+  background-image: url("../images/bgp.png");
+  background-size: cover;
+  background-position: center;
 }
 
 .title {
