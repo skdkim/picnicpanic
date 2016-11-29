@@ -48,8 +48,6 @@ I solved this problem by cloning the sound and playing the clone.
 This bit of code is inside the constructor of my fruit class
 ```javascript
     this.thumpSound = new Audio('./assets/sounds/thump.mp3');
-    this.thumpSound.preload = 'auto';
-    this.thumpSound.load();
 ```
 
 This is where the cloning happens, right before the sound needs to be played.
