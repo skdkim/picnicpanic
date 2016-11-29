@@ -1,21 +1,20 @@
-# CatchTheFruit
+# Picnic Panic
 
 ## Background
 
-Catch the Fruits is a fun game that drops fruit from the top of your screen to the bottom of your screen. When the game starts, fruits will immediately start dropping. The basket will start at the center of the screen. You gain points by catching the fruits in your basket. A single user is able to move their basket side to side using the arrow keys or "W,A,S,D" keys. When the game is in multi-player mode (bonus feature), two players can battle it out using the arrow keys and "W,A,S,D" keys.
+Picnic Panic is a fun game that drops fruit from the top of your screen to the bottom of your screen. When the game starts, fruits will immediately start dropping. The basket will start at the center of the screen. You gain points by catching the fruits in your basket. A single user is able to move their basket side to side using the arrow keys or "W,A,S,D" keys. When the game is in multi-player mode (bonus feature), two players can battle it out using the arrow keys and "W,A,S,D" keys.
 
 ## Functionality & MVP
-With Catch the Fruit, players will be able to:
+With Picnic Panic, players will be able to:
 
-- [ ] Start, pause, and reset the game
-- [ ] Toggle on/off the music
-- [ ] Catch fruits in their basket
-- [ ] See their current score vs highest score within a session
+- [X] Start, quit, restart the game
+- [X] Catch fruits in their basket
+- [X] See their current score (caught fruits/ missed) and accuracy score
 
 This project will also include:
-- [ ] An About modal that will describe the rules/ how to play the game
-- [ ] The About modal will also include links to the Github and my LinkedIn
-- [ ] A production README
+- [X] A How-To modal-ish screen that will describe the rules/ how to play the game
+- [X] The About modal-ish screen that will include links to the creator's Github, LinkedIn, and Portfolio
+- [X] A production README
 
 ## Wireframes
 This app will consist of a single screen with a game board, highest score display, and an About modal.
@@ -28,10 +27,9 @@ On the same section as the About modal will be a volume logo meant to toggle on 
 ## Architecture and Technologies
 This project will be implemented with the following technologies:
 + Vanilla JavaScript for game logic
-+ HTML5 and CSS for rendering game content
++ HTML and CSS for rendering game content
 + Canvas to provide '2D' game graphics
-+ HTML audio for game music
-+ FullScreen API to allow users to fully immerse themselves into the game
++ HTML audio for game sound effects
 
 ## Implementation Timeline
 **Day 1:** Learn Canvas and see what other technologies I need to make this project a reality.
@@ -45,9 +43,9 @@ Goals for the day:
 **Day 2:** Create/Implement the game logic
 
 Goals for the day:
-+ Create About's modal with links to github/linkedin
-+ Define sound class using HTML audio
-+ Render music and options to game screen
++ Create an About screen with links to github/linkedin
++ Create a How-To screen with directions about the game
++ Define sound-effects using HTML audio
 + Create backend game logic
 + Allow the user to interact with the game
 
@@ -56,7 +54,7 @@ Goals for the day:
 Goals for the day:
 + Find appropriate images for game
 + Style canvas with CSS
-+ Allow users to see their latest highest score
++ Allow users to see their various scores
 
 **Day 4:** Fix bugs and implement bonus features
 
@@ -69,4 +67,4 @@ Goals for the day:
 These are features that I would like to implement in order to make the gaming experience for the user more enjoyable
 - [ ] Allow the user to choose their fruit
 - [ ] Implement super fruits/bad fruits for powerups/powerdowns
-- [ ] Multiple players
+- [ ] Multiple fruits
