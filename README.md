@@ -16,10 +16,14 @@ You can enter endless mode by pressing "e" while a game is in play.
 
 You can quit anytime by pressing "q."
 
+![Basic End Game] (https://github.com/skdkim/picnicpanic/blob/master/assets/images/Screen%20Shot%202016-11-28%20at%209.12.35%20PM.png)
+
 ## Technical Implementations
 
 ### Informational Screens
 These modal-like screens are not part of canvas but rather part of the HTML. They are positioned in the exact same places with absolute positioning. At first I attempted to hide these views with the CSS attribute, `display: none`. This caused me problems because I also wanted to utilize `display: flex`. My work around for this was to use the attribute `visibility: hidden`. By creating style that only hid visibility in the stylesheet file, I was able to toggle the visibility of all my elements through JavaScript.
+
+![How to Play] (https://github.com/skdkim/picnicpanic/blob/master/assets/images/Screen%20Shot%202016-11-28%20at%209.11.42%20PM.png)
 
 ### Basket Movement
 One of my biggest design decision for this game was how I was going to allow the user to move their basket. I could have let the player move with their keyboard or with their mouse. I decided to implement mouse movement because it provided the most fluid movement for the basket that most accurately represented the speed of motion a human would have when actually catching something.
@@ -78,7 +82,7 @@ My gameOver function was always listening for the endlessMode. In case you were 
     }
   };
 ```
-
+![Endless Mode] (https://github.com/skdkim/picnicpanic/blob/master/assets/images/Screen%20Shot%202016-11-28%20at%209.14.07%20PM.png)
 ---
 ## Future Features
 - [ ] Power Ups (w/ different fruits)
