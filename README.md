@@ -2,7 +2,7 @@
 
 ## Background
 
-Picnic Panic is a fun game that drops fruit from the top of your screen to the bottom of your screen. When the game starts, fruits will immediately start dropping. The basket will start at the center of the screen. You gain points by catching the fruits in your basket. A single user is able to move their basket side to side using the arrow keys or "W,A,S,D" keys. When the game is in multi-player mode (bonus feature), two players can battle it out using the arrow keys and "W,A,S,D" keys.
+Picnic Panic is a fun game that drops fruit from the top of your screen to the bottom of your screen. When the game starts, fruits will immediately start dropping. The basket will start at the center of the screen. You gain points by catching the fruits in your basket. A single user is able to move their basket side to side moving their mouse. 
 
 ## Functionality & MVP
 With Picnic Panic, players will be able to:
@@ -22,7 +22,7 @@ The game board will display the start button and will tell the user to click the
 The About modal will include instructions for the game as well as links to the GitHub and my LinkedIn.
 On the same section as the About modal will be a volume logo meant to toggle on or off the music.
 
-![image of wireframe] (https://github.com/skdkim/catchthefruits/blob/master/design/catchthefruitwireframe.png)
+![image of wireframe] (https://github.com/skdkim/picnicpanic/blob/master/design/catchthefruitwireframe.png)
 
 ## Architecture and Technologies
 This project will be implemented with the following technologies:
