@@ -271,3 +271,9 @@ canvas {
   height: auto;
   margin-bottom: 20px;
 }
+
+#click {
+  position: relative;
+  left: 75px;
+  top: -7px;
+}
