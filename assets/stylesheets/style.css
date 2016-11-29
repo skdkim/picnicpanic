@@ -213,10 +213,12 @@ canvas {
 
 #htp-exit:hover {
   font-weight: 800;
+  cursor: hand;
 }
 
 #abt-exit:hover {
   font-weight: 800;
+  cursor: hand;
 }
 
 .images {
