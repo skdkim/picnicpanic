@@ -80,3 +80,10 @@ My gameOver function was always listening for the endlessMode. In case you were 
     }
   };
 ```
+
+---
+## Future Features
+- [ ] Power Ups (w/ different fruits)
+- [ ] Background Music
+- [ ] Various Levels
+- [ ] Speed toggling for endless mode (sandbox mode)
