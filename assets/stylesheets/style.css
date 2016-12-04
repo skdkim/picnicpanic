@@ -16,11 +16,14 @@ section, p, footer, small {
 }
 
 .view {
-  position: absolute;
   display: flex;
   align-items: center;
   flex-direction: column;
-  margin: 5% 30%;
+  margin: 5% 33%;
+}
+
+.inner-view {
+  position: absolute;
 }
 
 .skinny-view {
