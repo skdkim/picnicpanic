@@ -273,3 +273,22 @@ canvas {
   left: 75px;
   top: -7px;
 }
+
+.side-links {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 78px;
+  left: -107px;}
+
+.link-logo {
+  height: 100px;
+  width: 100px;
+  margin-bottom: 10px;
+}
+
+.side-links a:hover {
+  cursor: hand;
+  -webkit-filter: drop-shadow( 5px 5px 5px #222);
+  filter: drop-shadow(5px 5px 5px #222);
+}
