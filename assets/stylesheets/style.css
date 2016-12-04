@@ -138,6 +138,7 @@ canvas {
 #htp-info {
   position: absolute;;
   top: 122px;
+  left: 50px;
   display: flex;
   flex-direction: column;
   width: 500px;
@@ -151,6 +152,7 @@ canvas {
 #abt-info {
   position: absolute;;
   top: 122px;
+  left: 50px;
   display: flex;
   flex-direction: column;
   width: 500px;
