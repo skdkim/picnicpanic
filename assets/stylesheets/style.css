@@ -15,6 +15,10 @@ section, p, footer, small {
   background: transparent;
 }
 
+* {
+  font-family: monospace;
+}
+
 .view {
   display: flex;
   align-items: center;
@@ -291,4 +295,16 @@ canvas {
   cursor: hand;
   -webkit-filter: drop-shadow( 5px 5px 5px #222);
   filter: drop-shadow(5px 5px 5px #222);
+}
+
+.side-scores {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  top: 78px;
+  left: 607px;
+}
+
+#high-score {
+  font-size: 20px;
 }
