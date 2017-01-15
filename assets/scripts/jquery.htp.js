@@ -8,7 +8,7 @@ $(function() {
       clearTimeout(timeout);
 
         timeout = setTimeout(function() {
-          if($('#game-over').hasClass('v-h')){
+          if($('#game-over').hasClass('v-h') && $('#start-screen').hasClass('v-h')){
             $('.moveDect').removeClass('v-h');
           }
         }, 1500);
