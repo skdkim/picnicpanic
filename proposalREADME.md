@@ -2,7 +2,7 @@
 
 ## Background
 
-Picnic Panic is a fun game that drops fruit from the top of your screen to the bottom of your screen. When the game starts, fruits will immediately start dropping. The basket will start at the center of the screen. You gain points by catching the fruits in your basket. A single user is able to move their basket side to side moving their mouse. 
+Picnic Panic is a fun game that drops fruit from the top of your screen to the bottom of your screen. When the game starts, fruits will immediately start dropping. The basket will start at the center of the screen. You gain points by catching the fruits in your basket. A single user is able to move their basket side to side moving their mouse.
 
 ## Functionality & MVP
 With Picnic Panic, players will be able to:
@@ -12,8 +12,8 @@ With Picnic Panic, players will be able to:
 - [X] See their current score (caught fruits/ missed) and accuracy score
 
 This project will also include:
-- [X] A How-To modal-ish screen that will describe the rules/ how to play the game
-- [X] The About modal-ish screen that will include links to the creator's Github, LinkedIn, and Portfolio
+- [X] A How-To modal screen that will describe the rules/ how to play the game
+- [X] The About modal screen that will include links to the creator's Github, LinkedIn, and Portfolio
 - [X] A production README
 
 ## Wireframes
