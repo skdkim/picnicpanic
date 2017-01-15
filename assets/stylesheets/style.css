@@ -308,3 +308,15 @@ canvas {
 #high-score {
   font-size: 20px;
 }
+
+.moveDect {
+  display: flex;
+  position: absolute;
+  bottom: 4%;
+  left: 9%;
+}
+
+.stdFont {
+  font-family: monospace;
+  font-size: 48px;
+}
