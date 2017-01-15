@@ -3,6 +3,7 @@ var timeout = null;
 // making the alert show
 $(function() {
   $('#start').on('click', function(){
+    $('.moveDect').removeClass('v-h');
 
     $('#canvas').on('mousemove', function(){
       clearTimeout(timeout);
