@@ -320,3 +320,13 @@ canvas {
   font-family: monospace;
   font-size: 48px;
 }
+
+/*@media (max-width: 600px){
+  .side-links {
+    display: none;
+  }
+
+  .side-scores {
+    display: none;
+  }
+}*/
